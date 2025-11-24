@@ -1,0 +1,365 @@
+body {
+            font-family: Verdana, ;
+            line-height: 1.5;
+            color: #2c3e50;
+            background: linear-gradient(135deg,#FC8EAC 0%,#FFA500    100%);
+            min-height: 100%;
+            padding: 2rem 1rem;
+        }
+.conteneur {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 30px;
+            overflow: hidden;
+	        border: solid 1px white
+        }
+
+header{ background: linear-gradient(135deg,#FF1493 0%,#FFA500   50%);
+            color: white;
+            padding: 3rem 2rem;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            flex-wrap: wrap;}
+
+.photodeprofil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            border: 5px solid white;
+            
+        }
+.photodeprofil img {
+	
+	 width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 50%;
+}
+
+.contenue_header {
+            flex: 1;
+            min-width: 300px;
+        }
+.contenue_header h1 {
+            font-size: 2.5rem;
+            margin:0 0 0.5rem;
+        }
+.contenue_header .travail {
+            font-size: 1.3rem;
+            opacity: 0.8;
+            margin-bottom: 1rem;
+        }
+.infocontact{   
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+.infocontact a {
+            color: white;
+            text-decoration: none;
+        }
+.infocontact a:hover {
+            opacity: 0.5;
+        }
+
+.resumepro {
+            line-height: 1.8;
+            font-style: italic;
+        }
+section {
+            padding: 2.5rem 2rem;
+            border-bottom: 1px solid #ecf0f1;
+        }
+section h2 {
+            color: #FF7F00;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #FF7F00;
+            display: inline-block;
+        }
+.chrono{
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+            position: relative;
+        }
+
+
+.Chrono{
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+            position: relative;
+        }
+
+.apart{
+	margin-left:2rem;
+}
+.chrono h3 {
+            color: #2c3e50;
+            font-size: 1.2rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .chrono .date {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .chrono a {
+            color: #3282B8;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .chrono a:hover {
+            color: #FF7F00;
+        }
+.Chrono a {
+            color: #3282B8;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .Chrono a:hover {
+            color: #FF7F00;
+        }
+
+.apart h3 {
+            color: #2c3e50;
+            font-size: 1.2rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .aprat .date {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .apart a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .apart a:hover {
+            color: #FF7F00;
+        }
+ .conteneur_competence {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+.competence_flex {
+            flex: 1;
+            min-width: 200px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 1.5rem;
+            border-radius: 20px;
+        }
+.competence_flex h3 {
+            color:#FF7F00;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+	        
+        }
+ .competence_flex ul {
+            list-style: none;
+        }
+ .info-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+.info-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #FF7F00;
+        }
+
+.info-card h3 {
+            color: #FF7F00;
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+        }
+
+        .info-card ul {
+            list-style: none;
+        }
+
+        .info-card li {
+            padding: 0.3rem 0;
+            color: #555;
+        }
+html {
+scroll-behavior: smooth;
+}
+
+.nav-pages {
+            
+            padding: 1.5rem 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .nav-pages a {
+            background: red ;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+  .nav-pages a:hover {
+           background-color: #FFA500  ;
+        }
+.nav-pages1 {
+            
+            padding: 1.5rem 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .nav-pages1 a {
+            background: #D7ECFF ;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+  .nav-pages1 a:hover {
+           background-color: #FFA500  ;
+        }
+.formation-section {
+    background-image: url("see.jpeg"); 
+    background-size: cover;     
+    background-position: center;
+    
+    padding: 40px 20px;         
+    color: white;               
+    position: relative;
+}
+
+
+
+.formation-section > * {
+    position: relative;
+    z-index: 1;
+}
+.head-section {
+    background-image: url("see1.jpeg"); 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 40px 20px;         
+    color: white;                
+    position: relative;
+}
+
+
+.head-section > * {
+    position: relative;
+    z-index: 1;
+}
+.formation2-section {
+    background-image: url("iut.jpg"); 
+    background-size: cover;     
+    background-position: center;
+    
+    padding: 40px 20px;         
+    color: white;               
+    position: relative;
+}
+.formation2-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+	}
+
+
+
+.formation2-section > * {
+    position: relative;
+    z-index: 1;
+}
+.head2-section {
+    background-image: url("iut2.jpg"); 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 40px 20px;         
+    color: white;                
+    position: relative;
+}
+
+
+
+.head2-section > * {
+    position: relative;
+    z-index: 1;
+}
+
+.mini{
+	display: flex; 
+	gap: 2rem; 
+	flex-wrap: wrap; a
+	lign-items: flex-start;
+	lex: 1; 
+	min-width: 300px;
+	
+}
+.minii
+{
+	flex: 1; 
+	min-width: 250px; 
+	background: #f8f9fa; 
+	padding: 1.5rem; 
+	border-radius: 10px; 
+    border-left: 4px solid red;
+	
+}
+.minipeka{
+	display: flex; 
+	gap: 2rem; 
+	flex-wrap: wrap; 
+	align-items: center;
+	flex: 1; 
+	min-width: 300px
+}
+.peka{
+	flex: 1;
+	min-width: 300px; 
+	background: #f8f9fa; 
+	padding: 1.5rem; 
+	border-radius: 15px; 
+	border-left: 4px solid #FF7F00; 
+	min-height: 300px; 
+    display: flex; 
+	align-items: center; j
+	ustify-content: center;
+	
+	
+}
+.
